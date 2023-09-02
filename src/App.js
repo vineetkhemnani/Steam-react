@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+// import SearchBar from './components/SearchBar'
+import Navbar from './components/Navbar'
+// import Recommended from './components/Recommended'
+// import SpecialOffer from './components/SpecialOffers'
+// import Browse from './components/Browse'
+import Footer from './components/Footer'
+// import VideoComponent from './components/VideoComponent'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="bg-[#1b2838]">
+      {/* Navbar */}
+      <Navbar />
+       {/* <VideoComponent /> */}
+      <div className="lg:max-w-[90vw] xl:max-w-[80vw] mx-auto">
+        {/* Recommended */}
+        {/* <Recommended /> */}
+        {/* SpecialOffers */}
+        {/* <SpecialOffer /> */}
+        {/* Browse */}
+        {/* <Browse /> */}
+      </div> 
+      {/* Footer */}
+      <Footer />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
