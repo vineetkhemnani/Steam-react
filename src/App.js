@@ -1,6 +1,6 @@
 // import SearchBar from './components/SearchBar'
 import Navbar from './components/Navbar'
-// import Recommended from './components/Recommended'
+import Recommended from './components/Recommended'
 // import SpecialOffer from './components/SpecialOffers'
 // import Browse from './components/Browse'
 import Footer from './components/Footer'
@@ -14,7 +14,7 @@ function App() {
        <VideoComponent />
       <div className="lg:max-w-[90vw] xl:max-w-[80vw] mx-auto">
         {/* Recommended */}
-        {/* <Recommended /> */}
+        <Recommended />
         {/* SpecialOffers */}
         {/* <SpecialOffer /> */}
         {/* Browse */}
