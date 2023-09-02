@@ -2,7 +2,7 @@
 import Navbar from './components/Navbar'
 import Recommended from './components/Recommended'
 import SpecialOffer from './components/SpecialOffers'
-// import Browse from './components/Browse'
+import Browse from './components/Browse'
 import Footer from './components/Footer'
 import VideoComponent from './components/VideoComponent'
 
@@ -18,7 +18,7 @@ function App() {
         {/* SpecialOffers */}
         <SpecialOffer />
         {/* Browse */}
-        {/* <Browse /> */}
+        <Browse />
       </div> 
       {/* Footer */}
       <Footer />
