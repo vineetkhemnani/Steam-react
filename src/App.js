@@ -4,14 +4,14 @@ import Navbar from './components/Navbar'
 // import SpecialOffer from './components/SpecialOffers'
 // import Browse from './components/Browse'
 import Footer from './components/Footer'
-// import VideoComponent from './components/VideoComponent'
+import VideoComponent from './components/VideoComponent'
 
 function App() {
   return (
     <div className="bg-[#1b2838]">
       {/* Navbar */}
       <Navbar />
-       {/* <VideoComponent /> */}
+       <VideoComponent />
       <div className="lg:max-w-[90vw] xl:max-w-[80vw] mx-auto">
         {/* Recommended */}
         {/* <Recommended /> */}
